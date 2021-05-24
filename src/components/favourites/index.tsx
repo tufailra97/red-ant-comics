@@ -28,11 +28,11 @@ const ComicsContainer = styled.div`
   gap: 24px;
 `;
 
-interface IComicProps {
+interface IFavouriteProps {
   onClose: () => void;
 }
 
-const FavouritePanel: React.FC<IComicProps> = ({ onClose }) => {
+const FavouritePanel: React.FC<IFavouriteProps> = ({ onClose }) => {
   const { data, favourites } = useSelector(
     (state: any) => state.state
   ) as IState;
