@@ -10,6 +10,9 @@ In order to run the application - the following environment variables should be 
 To run the app locally
 
 > clone the repo
+
 > run yarn or npm i
+
 > create and .env file and populate it with the varaibles listed above
+
 > yarn start
